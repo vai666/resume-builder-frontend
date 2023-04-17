@@ -1,7 +1,11 @@
-export default function Home() {
+import Header from '../components/Header';
+
+const Home = () => {
   return (
-    <div className="text-3xl text-sky-500">
-      Hello World!
-    </div>
-  )
+     <>
+      <Header label='Resume Builder' />
+     </>
+  );
 }
+
+export default Home;
